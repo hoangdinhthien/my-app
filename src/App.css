@@ -48,7 +48,7 @@ html {
 }
 
 /* ---------------------------navigation----------------------------*/
-.nav {
+/* .nav {
   background-color: black;
   display: flex;
   padding: 0 18.5rem;
@@ -71,12 +71,12 @@ html {
 
 .menu-list {
   display: flex;
-  /* xóa dấu chấm của ul/li */
+  xóa dấu chấm của ul/li
   list-style-type: none;
   align-items: center;
-}
+} */
 
-.menu-list-item {}
+/* .menu-list-item {}
 
 .menu-list-item-link {
   display: block;
@@ -99,7 +99,7 @@ html {
 .switch-mode {
   text-decoration: none;
   font-size: 2.6rem;
-}
+} */
 
 /* ---------------------------------------------------------------- */
 
@@ -119,11 +119,11 @@ html {
 /* ---------------------------------------------------------------- */
 
 /* ----------------------------film/player------------------------  */
-.film-container {
-  /* border: 2px solid red; */
+/* .film-container {
+  border: 2px solid red;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /*fr: fraction*/
+  fr: fraction
   gap: 10rem 5rem;
   padding: 5rem 15rem;
 }
@@ -147,17 +147,16 @@ html {
   font-style: bold;
 }
 
-/* player img */
+player img
 .card-img img {
   display: block;
   float: left;
   width: 100%;
   height: auto;
-}
+} */
 
 /* film img */
-.film-card-img img {
-  /* border: 1px solid black; */
+/* .film-card-img img {
   float: left;
   width: 100%;
   height: 60rem;
@@ -184,16 +183,17 @@ html {
 
 hr.hr-content {
   border: 1px solid rgb(137, 134, 134);
-}
+} */
 
 
 /* ----------------------------------------------------- */
 
 
 /* ------------------------footer----------------------- */
-.footer {
+/* .footer {
   height: auto;
   padding: 2rem;
+  margin-top: 5rem;
 }
 
 .footer-item {
@@ -201,13 +201,13 @@ hr.hr-content {
   color: white;
   font-size: 4rem;
 
-}
+} */
 
 /* ----------------------------------------------------- */
 
 
 /* ------------------------popup/overlay---------------------- */
-.overlay {
+/* .overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -262,7 +262,7 @@ hr.hr-content {
 .popup .content {
   max-height: 30%;
   overflow: auto;
-}
+} */
 
 /* ----------------------------------------------------------------------- */
 
@@ -297,7 +297,7 @@ hr.hr-content {
 
 
 /* ----------------------------DETAIL------------------------ */
-.detail-container {
+/* .detail-container {
   margin: 3rem 20rem 5rem 20rem;
 }
 
@@ -326,15 +326,9 @@ hr.hr-content {
   height: auto;
 }
 
-.product-details {
-  padding: 3rem;
-  text-align: justify;
-  background-color: #FAFAFA;
-  margin: 1rem 2rem 0 2rem;
-  border-radius: 2rem;
-}
 
-.product-details h3 {
+
+/* .product-details h3 {
   padding-bottom: 1.5rem 0;
 }
 
@@ -344,10 +338,31 @@ hr.hr-content {
   color: rgb(240, 224, 45);
 }
 
-.product-bottom-details {}
+.product-bottom-details {} */
+
+.product-details {
+  color: white;
+  background-color: #009688;
+  padding: 1.5rem;
+  margin: 0.3rem 0;
+}
+
 
 /* ------------------------------------------------------------- */
 
 .menu {
   text-align: left;
+}
+
+
+/* model case */
+.modal-show {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vmax;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
